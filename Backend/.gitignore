@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Django
+db.sqlite3
+*.sqlite3
+
+# Env & secrets
+.env
+*.env
+
+# VSCode
+.vscode/
+
+# Mac/Windows
+.DS_Store
+Thumbs.db
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# Migrations (opcjonalnie, jeśli nie chcesz trzymać wygenerowanych plików migracji)
+# */migrations/*.py
+# */migrations/*.pyc
+
+# Static files
+staticfiles/
+static/
+media/
+
+# Logs
+*.log
+
+# Coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+.pytest_cache/
